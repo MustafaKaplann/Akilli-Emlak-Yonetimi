@@ -18,7 +18,6 @@
 - [Sistem Mimarisi](#-sistem-mimarisi)
 - [Avantajlar](#-avantajlar)
 - [Ekran Görüntüleri](#-ekran-görüntüleri)
-- [Kurulum](#-kurulum)
 - [Katkıda Bulunma](#-katkıda-bulunma)
 - [Lisans](#-lisans)
 - [İletişim](#-iletişim)
@@ -310,56 +309,6 @@ GET /api/eslestirmeler?min_uyumluluk=80
 
 ---
 
-## 🔧 Kurulum
-
-### Gereksinimler
-
-- Modern web tarayıcı (Chrome, Firefox, Safari, Edge)
-- İnternet bağlantısı
-- Supabase hesabı
-
-### Hızlı Başlangıç
-
-```bash
-# 1. Projeyi klonlayın
-git clone https://github.com/kullaniciadi/emlak-yonetim-sistemi.git
-
-# 2. Supabase projenizi oluşturun
-# https://supabase.com adresinden yeni proje oluşturun
-
-# 3. Veritabanı tablolarını oluşturun
-# Supabase SQL Editor'de gerekli tabloları oluşturun
-
-# 4. Ortam değişkenlerini ayarlayın
-# .env dosyasına Supabase URL ve API key'i ekleyin
-
-# 5. Uygulamayı başlatın
-# Projeyi web sunucusunda çalıştırın
-```
-
-### Veritabanı Kurulumu
-
-```sql
--- Örnek tablo oluşturma (Supabase SQL Editor)
-
--- Müşteriler tablosu
-CREATE TABLE musteriler (
-  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
-  ad_soyad TEXT NOT NULL,
-  telefon TEXT,
-  email TEXT,
-  butce NUMERIC,
-  tercih_bolge TEXT,
-  tercih_oda_sayisi TEXT,
-  notlar TEXT,
-  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-);
-
--- Diğer tablolar için benzer şekilde...
-```
-
----
-
 ## 🤝 Katkıda Bulunma
 
 Bu proje açık kaynak değildir ve özel bir emlak yönetim çözümüdür. Öneriler ve geri bildirimler için lütfen iletişime geçin.
@@ -374,11 +323,11 @@ Bu proje özel lisans altındadır. Tüm hakları saklıdır.
 
 ## 📞 İletişim
 
-**Proje Sahibi**: [Adınız]
+**Proje Sahibi**: [Mustafa KAPLAN]
 
-**E-posta**: [email@example.com]
+**E-posta**: [imustafakaplan0@gmail.com]
 
-**Website**: [www.example.com]
+**Website**: [soon...]
 
 ---
 
