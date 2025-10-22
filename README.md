@@ -15,7 +15,6 @@
 - [Teknoloji Altyapısı](#-teknoloji-altyapısı)
 - [Nasıl Çalışır?](#-nasıl-çalışır)
 - [Kullanım Senaryoları](#-kullanım-senaryoları)
-- [Sistem Mimarisi](#-sistem-mimarisi)
 - [Avantajlar](#-avantajlar)
 - [Ekran Görüntüleri](#-ekran-görüntüleri)
 - [Katkıda Bulunma](#-katkıda-bulunma)
@@ -170,7 +169,7 @@ Her kriter belirli bir ağırlığa sahiptir ve toplam yüzde uyumluluk hesaplan
 09:00 - Ofise giriş
 09:05 - Yeni müşteri kaydı ekleme
 09:07 - Sistem otomatik olarak uyumlu emlakları gösteriyor
-09:10 - En yüksek uyumluluğa sahip 3 emlakı müşteriye sunma
+09:10 - En yüksek uyumluluğa sahip 3 emlak ilanını müşteriye sunma
 12:00 - Müşteri ile emlak gezisi
 17:00 - Satış kapatma! 🎉
 ```
@@ -197,79 +196,6 @@ Danışman:
 - Kendi müşterilerini yönetme
 - Atanan emlakları takip etme
 - Eşleştirme önerilerini değerlendirme
-```
-
----
-
-## 🏗 Sistem Mimarisi
-
-### Veritabanı Yapısı
-
-```
-📦 Veritabanı Tabloları
-
-├── 👤 profiles (Kullanıcılar)
-│   ├── id
-│   ├── email
-│   ├── full_name
-│   ├── role (admin/user)
-│   └── created_at
-│
-├── 👥 musteriler (Müşteriler)
-│   ├── id
-│   ├── ad_soyad
-│   ├── telefon
-│   ├── email
-│   ├── butce
-│   ├── tercih_bolge
-│   ├── tercih_oda_sayisi
-│   ├── notlar
-│   └── created_at
-│
-├── 🏠 emlak_ilanlari (Emlak İlanları)
-│   ├── id
-│   ├── baslik
-│   ├── fiyat
-│   ├── konum
-│   ├── oda_sayisi
-│   ├── metrekare
-│   ├── kat
-│   ├── durum (satılık/kiralık)
-│   ├── aciklama
-│   └── created_at
-│
-├── 🤝 musteri_emlak_eslestirmeleri (Eşleştirmeler)
-│   ├── id
-│   ├── musteri_id
-│   ├── emlak_id
-│   ├── uyumluluk_yuzdesi
-│   └── created_at
-│
-└── 📸 emlak_resimleri (Emlak Görselleri)
-    ├── id
-    ├── emlak_id
-    ├── resim_url
-    ├── sira
-    └── created_at
-```
-
-### API Endpoint Örnekleri
-
-```javascript
-// Müşterileri listele
-GET /api/musteriler
-
-// Emlakları listele
-GET /api/emlak_ilanlari
-
-// Eşleştirmeleri getir
-GET /api/musteri_emlak_eslestirmeleri
-
-// Belirli müşteri için eşleştirmeler
-GET /api/eslestirmeler?musteri_id={id}
-
-// Yüksek uyumluluklu eşleştirmeler
-GET /api/eslestirmeler?min_uyumluluk=80
 ```
 
 ---
