@@ -272,12 +272,10 @@ Bu proje özel lisans altındadır. Tüm hakları saklıdır.
 - 🔄 Otomatik e-posta bildirimleri
 - 🔄 Gelişmiş raporlama ve analitik
 - 🔄 CRM entegrasyonu
-- 🔄 Sanal tur desteği
 
 ### Gelecek Vizyonu (v3.0)
 - 🔮 Yapay zeka destekli fiyat tahmini
 - 🔮 Chatbot müşteri hizmetleri
-- 🔮 Blockchain tabanlı sözleşme yönetimi
 - 🔮 IoT entegrasyonu (akıllı ev sistemleri)
 
 ---
@@ -316,46 +314,12 @@ Bu proje özel lisans altındadır. Tüm hakları saklıdır.
 🎉 Maksimum satış potansiyeli
 ```
 
----
-
-## 💬 Kullanıcı Yorumları
-
-> "Bu sistem ofisimizdeki satış sürecini tamamen değiştirdi. Artık hangi müşteriye hangi evi göstereceğimi hemen biliyorum!"
-> 
-> **- Mehmet Y., Emlak Danışmanı**
-
-> "Yönetici olarak tüm ekibimin performansını anlık takip edebiliyorum. İnanılmaz bir verimlilik artışı sağladık."
->
-> **- Ayşe K., Ofis Müdürü**
-
-> "Eşleştirme algoritması gerçekten çok başarılı. Müşterilerime daha doğru önerilerde bulunabiliyorum."
->
-> **- Can T., Emlak Uzmanı**
-
----
-
-## 🏆 Başarı Hikayeleri
-
-### ABC Gayrimenkul Ofisi
-- 📊 **Öncesi**: Ayda 8-10 satış
-- 🚀 **Sonrası**: Ayda 25-30 satış
-- 📈 **Artış**: %250
-
-### XYZ Emlak Danışmanlık
-- ⏱️ **Öncesi**: Ortalama 12 gün satış süresi
-- ⚡ **Sonrası**: Ortalama 3 gün satış süresi
-- ✅ **İyileşme**: %75 daha hızlı
-
----
-
 <div align="center">
 
 **Emlak Yönetim Sistemi** ile işinizi bir üst seviyeye taşıyın! 🚀
 
-Made with ❤️ for Real Estate Professionals
-
 ---
 
-⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
+⭐ Made by Mustafa KAPLAN
 
 </div>
